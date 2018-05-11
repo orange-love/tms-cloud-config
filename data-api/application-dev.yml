@@ -1,5 +1,5 @@
 server:
-  port: 48599
+  port: 9999
   contextPath: /
 spring:
   name: data-api
