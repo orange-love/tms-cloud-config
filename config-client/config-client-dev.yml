@@ -1,8 +1,6 @@
 server:
   port: 9999
   contextPath: /
-spring:
-  name: data-api
 logging:
   path: ./logs
   level:
