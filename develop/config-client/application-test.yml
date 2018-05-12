@@ -1,0 +1,15 @@
+server:
+  port: 9999
+  contextPath: /
+logging:
+  path: ./logs
+  level:
+    cn.weeapp.api: DEBUG
+apiserver:
+  ipPattern: ^(10|172)\.\d+\.\d+\.\d+$
+  port: 48100
+  provider: tms_data
+smartClient:
+  url: this is test
+  appkey: tms_data
+  appSecret: 2YyX2TkeaS54V2cZqqpy
