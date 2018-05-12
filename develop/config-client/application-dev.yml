@@ -10,6 +10,6 @@ apiserver:
   port: 48100
   provider: tms_data
 smartClient:
-  url: http://tmsapi.dev.fruitday.com/router
+  url: http://tmsapi.dev.fruitday.com/router fenzhi
   appkey: tms_data
   appSecret: 2YyX2TkeaS54V2cZqqpy
