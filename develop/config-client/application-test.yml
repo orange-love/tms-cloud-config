@@ -7,7 +7,7 @@ apiserver:
   port: 48100
   provider: tms_data
 smartClient:
-  url: this is test online
+  url: this is test
   appkey: tms_data
   appSecret: 2YyX2TkeaS54V2cZqqpy
 
