@@ -2,7 +2,7 @@ server:
   port: 48599
   contextPath: /
 spring:
-  name: api-srv
+  name: data-api
   redis:
     database: 13
     host: 10.28.20.171
