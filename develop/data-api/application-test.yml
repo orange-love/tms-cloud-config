@@ -29,7 +29,7 @@ logging:
 apiserver:
   ipPattern: ^(10|172)\.\d+\.\d+\.\d+$
   port: 48600
-  provider: apiSrv
+  provider: tms-data
 smartClient:
   url: http://tmsapi.dev.fruitday.com/router
   appkey: api
