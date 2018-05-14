@@ -1,0 +1,39 @@
+server:
+  port: 48599
+  contextPath: /
+spring:
+  name: api-srv
+  redis:
+    database: 13
+    host: 10.28.20.171
+    port: 6379
+    password: null
+    pool:
+      max-idle: 300
+      min-idle: 10
+      max-active: 600
+      max-wait: 1000
+    timeout: 0
+var:
+  mail:
+    fruitday-com:
+      pop3: pop3.fruitday.com
+      smtp: smtp.fruitday.com
+      username: fruitday_system@fruitday.com
+      password: FCg6MySygJkq
+      auth: true
+logging:
+  path: ./logs
+  level:
+    cn.weeapp.api: DEBUG
+apiserver:
+  ipPattern: ^(10|172)\.\d+\.\d+\.\d+$
+  port: 48600
+  provider: apiSrv
+smartClient:
+  url: http://tmsapi.dev.fruitday.com/router
+  appkey: api
+  appSecret: e9dy5kvthe79ywy7w3b8
+wxwork:
+  corpId: wx3a68e4d57c8adc4b
+  corpsecret: xDbbaUcOFiuL_S51jDZkYKYRRWvVE54a4T3T0hyzmA4
